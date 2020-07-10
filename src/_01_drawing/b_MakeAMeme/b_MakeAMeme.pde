@@ -27,9 +27,10 @@ void setup() {
 void draw() {
 
   // 7. Write the messsage "IT WORKED FIRST TIME" at the bottom of the meme
+  if(mousePressed){
   fill(#FEFF00);
   text("IT WORKED FIRST TIME", 30,450);
-  
+  }
   // 8. Change the color of the text. Use the fill() command for this
   //    Put it BEFORE you write the text!
   
